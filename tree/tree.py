@@ -1,6 +1,8 @@
 from os import listdir, getcwd
 from os.path import isdir, join
 
+__all__ = ['tree_sort_by_extension', 'tree_sort_by_filename', 'tree_no_sorting']
+
 def sort_key(x):
     if '.' in x:
         return x.split('.')[-1]

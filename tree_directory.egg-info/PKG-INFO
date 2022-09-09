@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tree-directory
+Version: 0.1
+Summary: View your directory structure
+Home-page: https://github.com/nayakrujul/tree
+Author: Rujul Nayak
+Author-email: rujulnayak@outlook.com
+License: Apache
+Download-URL: https://github.com/nayakrujul/tree/archive/refs/tags/v_01.tar.gz
+Keywords: directory,structure
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+View your directory structure - read the docs at https://www.github.com/nayakrujul/tree
+

@@ -1,0 +1,5 @@
+[console_scripts]
+tree = tree.tree:tree_no_sorting
+tree2 = tree.tree:tree_sort_by_filename
+tree3 = tree.tree:tree_sort_by_extension
+

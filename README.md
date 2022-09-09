@@ -61,4 +61,4 @@ Ordered by filename (alphabetical order)
 
 Ordered by file extension (alphabetical order, folders first)
 
-Just type the command and it will output the directory stucture.
+**Just type the command and it will output the directory stucture.**

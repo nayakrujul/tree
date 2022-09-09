@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
-long_description = 'Shorten your Python code with shorter syntax - read the docs at https://www.github.com/nayakrujul/python-plus'
+long_description = 'View your directory structure - read the docs at https://www.github.com/nayakrujul/tree'
 
 setup(
-  name = 'shorter-python',
-  version = '5.0',
+  name = 'tree-directory',
+  version = '0.1',
   license='Apache',
-  description = 'Shorten your Python code with shorter syntax.',
+  description = 'View your directory structure',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
-  url = 'https://github.com/nayakrujul/python-plus',
-  download_url = 'https://github.com/nayakrujul/python-pluso/archive/refs/tags/v_01.tar.gz',
-  keywords = ['shorter', 'syntax'],
+  url = 'https://github.com/nayakrujul/tree',
+  download_url = 'https://github.com/nayakrujul/tree/archive/refs/tags/v_01.tar.gz',
+  keywords = ['directory', 'structure'],
   install_requires=[
       ],
   classifiers=[
@@ -32,7 +32,9 @@ setup(
   packages = find_packages(),
   entry_points = {
     'console_scripts': [
-      'pythonplus = python_plus.compiler:from_file'
+      'tree = tree.tree:tree_no_sorting',
+      'tree2 = tree.tree:tree_sort_by_filename',
+      'tree3 = tree.tree:tree_sort_by_extension'
     ]
   }
 )

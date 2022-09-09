@@ -4,7 +4,7 @@ long_description = 'View your directory structure - read the docs at https://www
 
 setup(
   name = 'tree-directory',
-  version = '0.1',
+  version = '1.0',
   license='Apache',
   description = 'View your directory structure',
   author = 'Rujul Nayak',
